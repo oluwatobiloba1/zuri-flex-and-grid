@@ -16,12 +16,15 @@ body{
 }
 
 .my-flexbox{
-    width: 800px;
+    width: 80%;
     display: flex;
     margin: 0 auto;
 }
 .ind-box{
     padding: 1em 1em 1em 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .ind-box h1{
     color: hsl(0, 0%, 95%);
