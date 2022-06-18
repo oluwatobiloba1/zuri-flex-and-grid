@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500;600;700;900&family=Lexend+Deca:wght@400;500;600;900&display=swap');
+
+
+
 *,*::before,*::after{
     box-sizing: border-box;
 }
 html{
     margin: 0;
+    font-family: 'Lexend Deca', 'Big Shoulders Display';
 }
+
 .container{
     background-color: #2F897A ;
     width: 700px;
@@ -37,4 +43,7 @@ html{
 .box5{
     grid-area: box5;
     background-color: cadetblue;
+}
+a{
+    text-decoration: none;
 }

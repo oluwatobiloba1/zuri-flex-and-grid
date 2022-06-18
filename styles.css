@@ -4,18 +4,21 @@
 
 *,*::before,*::after{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 html{
-    margin: 0;
     font-family: 'Lexend Deca', 'Big Shoulders Display';
 }
 body{
-    width: 1000px;
-    margin: 60px auto;
+    height: 100vh;
+    padding-top: 50px;
 }
 
 .my-flexbox{
+    width: 800px;
     display: flex;
+    margin: 0 auto;
 }
 .ind-box{
     padding: 1em 1em 1em 3em;
@@ -57,4 +60,7 @@ button{
     background-color: inherit;
     color: hsl(0, 0%, 95%);
     cursor: pointer;
+}
+a{
+    text-decoration: none;
 }
