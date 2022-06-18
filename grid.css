@@ -1,0 +1,40 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+html{
+    margin: 0;
+}
+.container{
+    background-color: #2F897A ;
+    width: 700px;
+    height: 400px;
+    margin: 70px auto;
+    display: grid;
+    grid-template-areas: 'box1 box1 box1 box2'
+    'box3 box3 box4 box4'
+    'box3 box3 box5 box5'
+    ;
+    gap: 10px;
+    padding: 10px;
+    padding-right: 100px;
+}
+.box1{
+    background-color: aliceblue;
+    grid-area: box1;
+}
+.box2{
+    grid-area: box2;
+    background-color: black;
+}
+.box3{
+    grid-area: box3;
+    background-color: blanchedalmond;
+}
+.box4{
+    grid-area: box4;
+    background-color: burlywood;
+}
+.box5{
+    grid-area: box5;
+    background-color: cadetblue;
+}
